@@ -1,8 +1,31 @@
 package by.mazinski;
 
+
 public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello");
-        System.out.println (MathOperations.calculateFirstTask(2.2, 3.7,3.4) );
+    public static void main(String[] args)
+    {
+        LinearPrograms.calculateFirstTask();
+        LinearPrograms.calculateSecondTask();
+        LinearPrograms.calculateThirdTask();
+        LinearPrograms.calculateFourthTask();
+        LinearPrograms.calculateFifthTask();
+        LinearPrograms.calculateSixthTask();
+
+        Branching.calculateFirstTask();
+        Branching.calculateSecondTask();
+        Branching.calculateThirdTask();
+        Branching.calculateFourthTask();
+        Branching.calculateFifthTask();
+
+        Cycle.calculateFirstTask();
+        Cycle.calculateSecondTask();
+        Cycle.calculateThirdTask();
+        Cycle.calculateFourthTask();
+        Cycle.calculateFifthTask();
+        Cycle.calculateSixthTask();
+        Cycle.calculateSeventhTask();
+        Cycle.calculateEithTask();
+
+
     }
 }
